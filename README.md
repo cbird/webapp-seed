@@ -8,6 +8,7 @@ This is a template for building web applactions. It uses a bunch of handy techno
 * [PaceJS](http://github.hubspot.com/pace/docs/welcome/) -- Automatic page load progress bar
 * [Fastclick](http://ftlabs.github.io/fastclick/) -- Speeding up touch events on mobile devices
 
+A handy tool for creating favicons [Real Favicon Generator](http://realfavicongenerator.net/)
 
 ##Building webapp-seed
 Download and install [Node.js](http://nodejs.org/)
