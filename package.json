@@ -1,0 +1,34 @@
+{
+  "name": "webapp-seed",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cbird/webapp-seed",
+  "authors": [
+    "Carl Ripa <cj.ripa@gmail.com>"
+  ],
+  "description": "A template for web apps using Browserify, Grunt, Bower, AngularJS, Bootstrap and other goodies",
+  "private": false,
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/cbird/webapp-seed/blob/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-bower-task": "latest",
+    "grunt-browserify": "latest",
+    "grunt-contrib-compress": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-mocha-chai-sinon": "latest",
+    "grunt-text-replace": "latest"
+  }
+}

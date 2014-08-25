@@ -1,0 +1,81 @@
+{
+  "name": "webapp-seed",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cbird/webapp-seed",
+  "authors": [
+    "Carl Ripa <cj.ripa@gmail.com>"
+  ],
+  "description": "A template for web apps using Browserify, Grunt, Bower, AngularJS, Bootstrap and other goodies",
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "latest",
+    "angular": "latest",
+    "angular-route": "latest",
+    "angular-resource": "latest",
+    "angular-cookies": "latest",
+    "bootstrap": "latest",
+    "pace": "latest",
+    "fastclick": "latest",
+    "font-awesome": "latest"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "css": "dist/css/bootstrap.min.css",
+      "fonts": "dist/fonts/**"
+    },
+    "angular-bootstrap": {
+      "js": [
+        "ui-bootstrap.min.js",
+        "ui-bootstrap.js",
+        "ui-bootstrap-tpls.min.js",
+        "ui-bootstrap-tpls.js"
+      ]
+    },
+    "angular": {
+      "js": [
+        "angular.min.js",
+        "angular.js"
+      ]
+    },
+    "angular-route": {
+      "js": [
+        "angular-route.min.js",
+        "angular-route.js"
+      ]
+    },
+    "angular-resource": {
+      "js": [
+        "angular-resource.min.js",
+        "angular-resource.js"
+      ]
+    },
+    "angular-cookies": {
+      "js": [
+        "angular-cookies.min.js",
+        "angular-cookies.js"
+      ]
+    },
+    "pace": {
+      "js": "pace.min.js"
+    },
+    "font-awesome": {
+      "css": [
+        "css/"
+      ],
+      "fonts": [
+        "fonts/"
+      ]
+    },
+    "fastclick": {
+      "js": "lib/fastclick.js"
+    }
+  }
+}

@@ -1,0 +1,223 @@
+#page-wrapper {
+    min-height: 0 !important;
+}
+
+/*** FORM VALIDATION ***/
+
+.form-group .help-block {
+    display: none;
+}
+.form-group.has-error .help-block,
+.form-group.has-warning .help-block,
+.form-group.has-success .help-block,
+ {
+    display: block;
+}
+
+/***********************/
+
+/*** COMMON CLASSES ***/
+
+.btn-xlg, .btn-group-xlg>.btn {
+    padding: 20px 30px;
+    font-size: 22px;
+    line-height: 1.7;
+    border-radius: 9px;
+}
+
+.margin-small {
+    margin: @margin-small;
+}
+.margin-medium {
+    margin: @margin-medium;
+}
+.margin-large {
+    margin: @margin-large;
+}
+.margin-top-small {
+    margin-top: @margin-small;
+}
+.margin-top-medium {
+    margin-top: @margin-medium;
+}
+.margin-top-large {
+    margin-top: @margin-large;
+}
+.margin-bottom-small {
+    margin-bottom: @margin-small;
+}
+.margin-bottom-medium {
+    margin-bottom: @margin-medium;
+}
+.margin-bottom-large {
+    margin-bottom: @margin-large;
+}
+.margin-left-small {
+    margin-left: @margin-small;
+}
+.margin-left-medium {
+    margin-left: @margin-medium;
+}
+.margin-left-large {
+    margin-left: @margin-large;
+}
+.margin-right-small {
+    margin-right: @margin-small;
+}
+.margin-right-medium {
+    margin-right: @margin-medium;
+}
+.margin-right-large {
+    margin-right: @margin-large;
+}
+
+/**********************/
+
+.pace-done .page-content {
+    opacity: 1;
+}
+
+/********************************
+*** Buttons, text and background
+*********************************/
+
+.btn-base-color {
+    border-color: darken(@lighterBaseColor, 5%);
+    color: #fff;
+    background-color: @lighterBaseColor;
+}
+
+.btn-base-color:hover,
+.btn-base-color:focus,
+.btn-base-color:active,
+.btn-base-color.active,
+.open .dropdown-toggle.btn-base-color {
+    border-color: darken(@lighterBaseColor, 10%);
+    color: #fff;
+    background-color: darken(@lighterBaseColor, 5%);
+}
+
+.btn-base-color.disabled,
+.btn-base-color[disabled],
+fieldset[disabled] .btn-base-color,
+.btn-base-color.disabled:hover,
+.btn-base-color[disabled]:hover,
+fieldset[disabled] .btn-base-color:hover,
+.btn-base-color.disabled:focus,
+.btn-base-color[disabled]:focus,
+fieldset[disabled] .btn-base-color:focus,
+.btn-base-color.disabled:active,
+.btn-base-color[disabled]:active,
+fieldset[disabled] .btn-base-color:active,
+.btn-base-color.disabled.active,
+.btn-base-color[disabled].active,
+fieldset[disabled] .btn-base-color.active {
+    border-color: darken(@lightestBaseColor, 5%);
+    background-color: @lightestBaseColor;
+}
+
+.btn-secondary-color {
+    border-color: darken(@lighterSecondaryColor, 5%);
+    color: #fff;
+    background-color: @lighterSecondaryColor;
+}
+
+.btn-secondary-color:hover,
+.btn-secondary-color:focus,
+.btn-secondary-color:active,
+.btn-secondary-color.active,
+.open .dropdown-toggle.btn-secondary-color {
+    border-color: darken(@lighterSecondaryColor, 10%);
+    color: #fff;
+    background-color: darken(@lighterSecondaryColor, 5%);
+}
+
+.btn-secondary-color.disabled,
+.btn-secondary-color[disabled],
+fieldset[disabled] .btn-secondary-color,
+.btn-secondary-color.disabled:hover,
+.btn-secondary-color[disabled]:hover,
+fieldset[disabled] .btn-secondary-color:hover,
+.btn-secondary-color.disabled:focus,
+.btn-secondary-color[disabled]:focus,
+fieldset[disabled] .btn-secondary-color:focus,
+.btn-secondary-color.disabled:active,
+.btn-secondary-color[disabled]:active,
+fieldset[disabled] .btn-secondary-color:active,
+.btn-secondary-color.disabled.active,
+.btn-secondary-color[disabled].active,
+fieldset[disabled] .btn-secondary-color.active {
+    border-color: darken(@lightestSecondaryColor, 5%);
+    background-color: @lightestSecondaryColor;
+}
+
+/*****/
+
+.text-dark-base-color {
+    color: @lightBaseColor;
+}
+
+.text-dark-secondary-color {
+    color: @lightSecondaryColor;
+}
+
+.text-base-color {
+    color: @lighterBaseColor;
+}
+
+.text-secondary-color {
+    color: @lighterSecondaryColor;
+}
+
+/*****/
+
+ .dark-base-color {
+    background-color: @baseColor;
+}
+
+ .dark-secondary-color {
+    background-color: @secondaryColor;
+}
+
+.base-color {
+    background-color: @lightBaseColor;
+}
+
+.secondary-color {
+    background-color: @lightSecondaryColor;
+}
+
+/*** ***/
+
+.popover {
+    font-size: @baseFontSize;
+    color: #fff;
+    background-color: @darkerBaseColor;
+    border-color: @darkestBaseColor;
+    line-height: 18px;
+
+    &.top > .arrow {
+      border-top-color: @darkestBaseColor;
+    }
+    &.top > .arrow:after {
+      border-top-color: @darkerBaseColor;
+    }
+    &.right > .arrow {
+      border-right-color: @darkestBaseColor;
+    }
+    &.right > .arrow:after {
+      border-right-color: @darkerBaseColor;
+    }
+    &.bottom > .arrow {
+      border-bottom-color: @darkestBaseColor;
+    }
+    &.bottom > .arrow:after {
+      border-bottom-color: @darkerBaseColor;
+    }
+    &.left > .arrow {
+      border-left-color: @darkestBaseColor;
+    }
+    &.left > .arrow:after {
+      border-left-color: @darkerBaseColor;
+    }
+}
